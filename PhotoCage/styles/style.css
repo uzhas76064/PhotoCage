@@ -1,0 +1,57 @@
+header {
+    background: url('/images/header_bg.png') repeat-x;
+    border-bottom: solid #CCCCCC 1px;
+}
+
+mark {
+    background: none;
+    color: #FF7700;
+}
+
+.logo {
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+}
+
+.menu {
+    max-width: 1024px;
+    display: flex;
+    margin: auto;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    /*justify-content: space-around;*/
+}
+
+.menu-items {
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+}
+
+.menu-items li {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.95em;
+    padding-right: 21.5px;
+    padding-left: 21.5px;
+    border-right: solid gray 1px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-items li img {
+    padding-bottom: 5px;
+    height: 20px;
+}
+
+.menu-items li:last-child{
+    border: none;
+}
+
+/*TODO: Fix background as on PSD*/
+.menu-items li:hover {
+    background: linear-gradient(to top, #E2E2E2, #E1E1E1, #E2E2E2, #EFEFEF);
+}
