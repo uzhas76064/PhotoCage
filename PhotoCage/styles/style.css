@@ -1,5 +1,5 @@
 header {
-    background: url('/images/header_bg.png') repeat-x;
+    background: url('../images/header_bg.png') repeat-x;
     border-bottom: solid #CCCCCC 1px;
 }
 
@@ -54,4 +54,32 @@ mark {
 /*TODO: Fix background as on PSD*/
 .menu-items li:hover {
     background: linear-gradient(to top, #E2E2E2, #E1E1E1, #E2E2E2, #EFEFEF);
+}
+
+.upload-file {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.main-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.upload-file h2 {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.upload-file input[type="text"] {
+    width: 360px;
+    height: 25px;
+}
+
+.upload-file button[type="submit"] {
+    width: 180px;
+    height: 31px;
 }
