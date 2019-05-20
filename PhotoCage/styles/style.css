@@ -9,12 +9,19 @@ mark {
 }
 
 figure {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 figcaption {
     padding-bottom: 8px;
     padding-top: 8px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #979393;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -70,7 +77,7 @@ figcaption {
     max-width: 700px;
 }
 
-.upload-container, .main-container {
+.upload-container, .main-container, .footer-container {
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -180,11 +187,14 @@ figcaption {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.share-soc p {
-}
-
 .share-soc img {
     padding: 0;
     padding-top: 2px;
     padding-bottom: 2px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 140px;
 }
