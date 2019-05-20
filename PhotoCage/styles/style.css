@@ -8,6 +8,10 @@ mark {
     color: #FF7700;
 }
 
+figure {
+    margin-bottom: 20px;
+}
+
 figcaption {
     padding-bottom: 8px;
     padding-top: 8px;
