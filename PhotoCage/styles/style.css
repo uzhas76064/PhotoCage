@@ -69,9 +69,8 @@ footer {
     border: none;
 }
 
-/*TODO: Fix background as on PSD*/
 .menu-items li:hover {
-    background: linear-gradient(to top, #E2E2E2, #E1E1E1, #E2E2E2, #EFEFEF);
+    border-bottom: solid #FF7700 3px;
 }
 
 .upload-file {
@@ -134,7 +133,7 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    color: #979393;
+    color: #747474;
 }
 
 .main-container figure {
